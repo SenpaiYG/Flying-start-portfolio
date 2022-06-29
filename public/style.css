@@ -6,15 +6,6 @@
   font-family: sans-serif;
 }
 
-.avatar {
+.logo {
   width: 300px;
-}
-nav{
-  display: flex;
-  width: 84%;
-  margin: auto;
-  padding: 20px 0;
-  justify-content: space-between;
-  
-
 }
