@@ -92,3 +92,14 @@
 .navigation a:hover::before{
   width: 100%;
 }
+
+.footer{
+  width: 100vw; /* vw allows css to see the width of the entire page. If your on a mobile it will scale down and desktop scale up   */
+  display: block;
+  overflow: hidden; /* Since some of the elements will be floating inside it. If you don't set it you will have some issues with the document collapsing on it self */
+  padding: 70px 0;
+  box-sizing: border-box;
+  background-color: #18181a;
+
+
+}
