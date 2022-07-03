@@ -13,7 +13,7 @@ section {
   z-index: 10;
   padding: 100px;
   box-sizing: border-box ;
-  background: rgb(59, 59, 59);
+  background: rgb(158, 206, 206);
 }
 
 section img {
@@ -211,5 +211,5 @@ footer{
 }
 
 @media(max-width: 768px){
-  
+
 }
