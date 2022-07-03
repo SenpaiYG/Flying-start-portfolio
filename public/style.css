@@ -31,16 +31,17 @@
   height: 100%;
   display: table;
   float:  left;
+  margin: 0px 15px 15px -90px;
 
 }
 
-.navigation{
+.nav{
   float: right;
   height: 100%;
   
 }
 
-.navigation a{
+.nav a{
   height: 100%;
   display: table;
   float: left;
@@ -48,13 +49,13 @@
   
 }
 
-.navigation a:last-child{ /* There will be no space between'Group Page' and right side of page */
+.nav a:last-child{ /* There will be no space between'Group Page' and right side of page */
   padding-right: 0;
 }
 
 
 
-.navigation li{
+.nav li{
   display: table-cell;
   vertical-align: middle;
   height: 100%;
