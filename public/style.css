@@ -1,9 +1,9 @@
-/* Add your css here */
 /* BODY */
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+
 }
 
 section {
@@ -13,7 +13,7 @@ section {
   z-index: 10;
   padding: 100px;
   box-sizing: border-box ;
-  background: #fff;
+  background: rgb(59, 59, 59);
 }
 
 section img {
@@ -210,4 +210,6 @@ footer{
   font-weight: 200;
 }
 
-
+@media(max-width: 768px){
+  
+}
