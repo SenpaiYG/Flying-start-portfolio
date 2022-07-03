@@ -65,12 +65,12 @@
 }
 
 .navigation a{
-  color: rgb(0, 219, 223)
+  color: rgb(255, 255, 255)
   
 }
 
 .navigation a:hover{
-  color: #ffffff
+  color:rgb(0, 219, 223)
 }
 
 .navigation a::before{
@@ -78,7 +78,7 @@
   display: block;
   height: 5px;
   
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 219, 223);
 
   position: absolute;
   top: 0%;
@@ -99,5 +99,56 @@ footer{
   width: 100vw;
   font-family: sans-serif;
   padding-top: 40px;
-  color:blue
+  color:rgb(255, 255, 255)
 }
+
+.footer_content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer_content h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+
+.footer_content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+  margin: 0 10px;
+  font-size: 30;
+}
+
+.socials a{
+  text-decoration: none;
+  color:rgb(255, 255, 255)
+}
+
+.socials a i{
+  transition: color.4s ease;
+}
+
+.socials a:hover i{
+  color:rgb(0, 219, 223)
+
+}
+
+.footer_bottom
